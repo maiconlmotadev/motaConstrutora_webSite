@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mota Construtora</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Poppins:ital@1 & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <div class="center">
+            <img src="img/logo-mota-construtora.png" alt="" style="width:100px;height:100px"; >
+            <div class="logo">
+                <h2>Construtora</h2>
+            </div>
+            <div class="menu">
+                <a href="">
+                    Home
+                </a>
+                <a href="">
+                    Sobre
+                </a>
+                <a href="">
+                    Contatos
+                </a>
+                <a class="btn-menu" href="">
+                    Iniciar
+                </a>
+            </div>
+            <div class="menu-mobile">
+                <i class="fas fa-bars menu-mobile-icon"></i>
+                <div class="menu-items">
+                    <a href="">Home</a>
+                    <a href="">Sobre</a>
+                    <a href="">Contato</a>
+                </div>
+            </div>
+                
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="center">
+            <div class="main_cta">
+                <h2>One page simple</h2>
+                <p>Somos amantes da construção</p>
+                <button>Iniciar</button>
+            </div>
+
+            <div class="diferenciais">
+                <div class="diferencial-single">
+                    <i class="fa fa-cubes" aria-hidden="true"></i>
+                    <h2>Lorem, ipsum dolor</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia architecto beatae culpa dicta sapiente quas.</p>
+                </div>
+                <div class="diferencial-single">
+                    <i class="fa fa-cubes" aria-hidden="true"></i>
+                    <h2>Lorem, ipsum dolor</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia architecto beatae culpa dicta sapiente quas.</p>
+                </div>
+                <div class="diferencial-single">
+                    <i class="fa fa-cubes" aria-hidden="true"></i>
+                    <h2>Lorem, ipsum dolor</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia architecto beatae culpa dicta sapiente quas.</p>
+                </div>
+                <div class="diferencial-single">
+                    <i class="fa fa-cubes" aria-hidden="true"></i>
+                    <h2>Lorem, ipsum dolor</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia architecto beatae culpa dicta sapiente quas.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="sobre">
+        <div class="center">
+            <div class="chamada-sobre">
+                <h2>Sobre a Mota Construtora</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur, sit amet consectetur</p>
+            </div>
+            <div class="conteudo-sobre">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id impedit ducimus aliquid cum rem tempore, eligendi doloremque nemo quo magni, praesentium minima, enim porro! Assumenda cupiditate quisquam vero deleniti quia.
+                    <br/>
+                    <span><i class="fas fa-check-double"></i> item 01<br/></span>
+                    <span><i class="fas fa-check-double"></i> item 02<br/></span>
+                    <span><i class="fas fa-check-double"></i> item 03<br/></span>
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quas ad ducimus exercitationem error id, nulla beatae animi nemo non aut nostrum fuga porro esse, consequatur voluptates enim pariatur velit.</p>
+            </div>
+        </div>       
+    </section>
+
+    <section class="conquistas">
+        <div class="center">
+            <div class="conquista-single">
+                <h2>+350 Unidades</h2>
+                <p>Casas e Imóveis de alto padrão</p>
+            </div>
+            <div class="conquista-single">
+                <h2>+350 Clientes</h2>
+                <p>Satisfeitos e felizes</p>
+            </div>
+            <div class="conquista-single">
+                <h2>100% de Qualidade</h2>
+                <p>Premium</p>
+            </div>
+            <div class="conquista-single">
+                <h2>Satisfação</h2>
+                <p>Sonhos realizados</p>
+            </div>
+        </div>
+
+
+    </section>
+
+    <script src="https://kit.fontawesome.com/93fc47e705.js" crossorigin="anonymous"></script>
+    <script>
+        var el = document.querySelector('.menu-mobile-icon')
+        el.addEventListener('click', ()=>{
+           var menuItems = document.querySelector('.menu-items');
+           if(menuItems.classList.contains('show')){
+                menuItems.classList.add('hidde');
+                menuItems.classList.remove('show');
+           }else{
+                menuItems.classList.add('show');
+                menuItems.classList.remove('hidde');
+           }     
+
+        });
+    </script>
+</body>
+</html>
